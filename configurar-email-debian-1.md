@@ -122,6 +122,12 @@ mail_driver = maildir
 mail_path = ~/Maildir
 ```
 
+Comentar essa linha:
+
+```
+mail_inbox_path = ~/Maildir/.INBOX
+```
+
 Editar a configuração SSL para desativar certificados:
 
 ```
